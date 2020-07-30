@@ -1,0 +1,223 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0px;
+    text-decoration: none;
+
+}
+body{
+    font-size: 16px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.panel-card{
+    border-radius: 1rem;
+    border:1px solid transparent;
+    background-color: #ffffff;
+}
+.panel-body{
+    min-height: 355px;
+    max-height: 355px;
+}
+.panel-header{
+    background-color:#555965;
+    font-size:16px;
+    color: #ffffff;
+    padding: 6px 16px;
+    padding: 6px 16px;
+    border-top-right-radius: 8px !important;
+    border-top-left-radius: 8px !important;
+
+}
+.mainbg{
+    background-color:#d7dbe5;
+}
+.mainbg .row {
+margin-bottom: 10px;
+}
+.navbelowsection{
+    background-color: #eaeaea;
+    
+    height: 105px;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+.table thead th {
+    vertical-align: middle;
+    border-bottom: 2px solid #68b2cd;
+}
+.table td, .table th {
+    padding: 8px 16px;
+    vertical-align: top;
+    border-bottom: 1px solid #dee2e6;
+}
+
+
+.switch-succ {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 14px;
+  }
+  
+  .switch-succ input {display:none;}
+  
+  .slider-succ {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider-succ:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: -11px;
+    bottom: 0px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider-succ {
+    background-color: #10a65a;
+  }
+  
+  input:focus + .slider-succ {
+    box-shadow: 0 0 1px #10a65a;
+  }
+  
+  input:checked + .slider-succ:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider-succ.round {
+    border-radius: 34px;
+  }
+  
+  .slider-succ.round:before {
+    border-radius: 50%;
+  }
+
+  
+.switch-danger {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 14px;
+  }
+  
+  .switch-danger input {display:none;}
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: -11px;
+    bottom: 0px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #f43737;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #f43737;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .fa-pencil{
+      cursor: pointer;
+  }
+
+  .table-fixed tbody {
+    height: 300px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed tr,
+.table-fixed td,
+.table-fixed th {
+    display: block;
+}
+
+.table-fixed tbody td,
+.table-fixed tbody th,
+.table-fixed thead > tr > th {
+    float: left;
+    position: relative;
+
+}
+.table-fixed tbody td,
+.table-fixed tbody th,
+.table-fixed thead > tr > th ::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+nav{
+    background-color: #262a33;
+}
+.navbar-nav a{
+    color:#fff !important; 
+}
+
+#myDiv{
+    /* text-align: center; */
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    }
+    
+    #mySpan{
+    writing-mode: vertical-lr; 
+    transform: rotate(180deg);
+    margin-top: 33px;
+    }
+    .p-lr-0{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
